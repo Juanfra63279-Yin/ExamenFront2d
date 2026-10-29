@@ -1,0 +1,226 @@
+---
+name: VinoNez High-Performance Commerce & Ops
+colors:
+  surface: '#131313'
+  surface-dim: '#131313'
+  surface-bright: '#393939'
+  surface-container-lowest: '#0e0e0e'
+  surface-container-low: '#1c1b1b'
+  surface-container: '#201f1f'
+  surface-container-high: '#2a2a2a'
+  surface-container-highest: '#353534'
+  on-surface: '#e5e2e1'
+  on-surface-variant: '#e3bfb2'
+  inverse-surface: '#e5e2e1'
+  inverse-on-surface: '#313030'
+  outline: '#aa8a7e'
+  outline-variant: '#5a4138'
+  surface-tint: '#ffb59a'
+  primary: '#ffb59a'
+  on-primary: '#5b1b00'
+  primary-container: '#f95e14'
+  on-primary-container: '#4f1700'
+  inverse-primary: '#a83900'
+  secondary: '#ffbf81'
+  on-secondary: '#4a2800'
+  secondary-container: '#ff9800'
+  on-secondary-container: '#653900'
+  tertiary: '#3ce36a'
+  on-tertiary: '#003912'
+  tertiary-container: '#00a744'
+  on-tertiary-container: '#00320f'
+  error: '#ffb4ab'
+  on-error: '#690005'
+  error-container: '#93000a'
+  on-error-container: '#ffdad6'
+  primary-fixed: '#ffdbcf'
+  primary-fixed-dim: '#ffb59a'
+  on-primary-fixed: '#380d00'
+  on-primary-fixed-variant: '#802a00'
+  secondary-fixed: '#ffdcbe'
+  secondary-fixed-dim: '#ffb870'
+  on-secondary-fixed: '#2c1600'
+  on-secondary-fixed-variant: '#693c00'
+  tertiary-fixed: '#69ff87'
+  tertiary-fixed-dim: '#3ce36a'
+  on-tertiary-fixed: '#002108'
+  on-tertiary-fixed-variant: '#00531e'
+  background: '#131313'
+  on-background: '#e5e2e1'
+  surface-variant: '#353534'
+  surface-base: '#121212'
+  surface-raised: '#1E1E1E'
+  surface-elevated: '#252525'
+  surface-overlay: '#2D2D2D'
+  text-primary: '#FFFFFF'
+  text-secondary: '#E0E0E0'
+  text-muted: '#9E9E9E'
+  border-subtle: '#333333'
+  border-focus: '#FFB74D'
+  status-success: '#00C853'
+  status-warning: '#FFB300'
+  status-error: '#EF4444'
+typography:
+  display-lg:
+    fontFamily: Inter
+    fontSize: 40px
+    fontWeight: '800'
+    lineHeight: 48px
+    letterSpacing: -0.02em
+  headline-lg:
+    fontFamily: Inter
+    fontSize: 32px
+    fontWeight: '700'
+    lineHeight: 40px
+    letterSpacing: -0.01em
+  headline-lg-mobile:
+    fontFamily: Inter
+    fontSize: 26px
+    fontWeight: '700'
+    lineHeight: 32px
+    letterSpacing: -0.01em
+  headline-md:
+    fontFamily: Inter
+    fontSize: 24px
+    fontWeight: '600'
+    lineHeight: 32px
+  headline-sm:
+    fontFamily: Inter
+    fontSize: 20px
+    fontWeight: '600'
+    lineHeight: 28px
+  title-md:
+    fontFamily: Inter
+    fontSize: 18px
+    fontWeight: '600'
+    lineHeight: 24px
+  body-lg:
+    fontFamily: Inter
+    fontSize: 16px
+    fontWeight: '400'
+    lineHeight: 24px
+  body-md:
+    fontFamily: Inter
+    fontSize: 14px
+    fontWeight: '400'
+    lineHeight: 20px
+  label-lg:
+    fontFamily: Inter
+    fontSize: 14px
+    fontWeight: '600'
+    lineHeight: 20px
+    letterSpacing: 0.01em
+  label-md:
+    fontFamily: Inter
+    fontSize: 12px
+    fontWeight: '600'
+    lineHeight: 16px
+    letterSpacing: 0.02em
+  caption:
+    fontFamily: Inter
+    fontSize: 11px
+    fontWeight: '500'
+    lineHeight: 14px
+    letterSpacing: 0.03em
+rounded:
+  sm: 0.25rem
+  DEFAULT: 0.5rem
+  md: 0.75rem
+  lg: 1rem
+  xl: 1.5rem
+  full: 9999px
+spacing:
+  gutter: 1rem
+  gutter-desktop: 1.5rem
+  margin: 1rem
+  margin-desktop: 2.5rem
+  space-xs: 0.25rem
+  space-sm: 0.5rem
+  space-md: 1rem
+  space-lg: 1.5rem
+  space-xl: 2rem
+  space-2xl: 3rem
+---
+
+## Brand & Style
+The design system establishes a focused, high-contrast, dark-mode retail and enterprise engine tailored for high transaction density, local delivery efficiency, and rapid retail operations. The aesthetic marries industrial clarity with warm agave-and-barrel cellar energy: matte carbon backgrounds, razor-sharp information hierarchy, and intense amber-orange action anchors.
+
+The emotional signature prioritizes speed, trust, and zero cognitive friction (Hick's Law). Customers encounter immediate clarity in inventory, liquor proof, discounts, and real-time stock levels, while back-office staff navigate high-density inventory controls and analytics without ocular fatigue. Visual cues draw from Modern Utilitarian commerce: distinct tonal elevation steps, tactile 48px touch targets adhering to Fitts's Law, and unambiguous, immediate feedback states.
+
+## Colors
+The color architecture complies strictly with WCAG 2.2 AA and AAA criteria for dark themes, preventing blooming while ensuring contrast ratios exceeding 7:1 for body and heading content against `#121212`.
+
+- **Primary (`#E65100`):** Energetic burnt orange reserved exclusively for high-intent transactional paths: Add to Cart, Confirm Order, and primary checkout commitments.
+- **Secondary (`#FF9800`):** Warm amber used for active promotional callouts, secondary action buttons, dynamic quantity adjusters, and discount tags.
+- **Tertiary (`#00C853`):** High-chroma emerald green signalling positive real-time metrics: guaranteed in-stock counts, confirmed table/order reservations, and operational success badges.
+- **Surfaces (`#121212`, `#1E1E1E`, `#252525`, `#2D2D2D`):** Stepped elevation tiers that structure UI depth without cast shadows.
+- **Focus Indicator (`#FFB74D`):** A high-visibility 2px solid ring engineered specifically to meet WCAG 2.2 Criterion 2.4.13 across dark surfaces.
+
+## Typography
+Inter acts as the unified geometric foundation across display, interface, and tabular data roles. Tall x-heights, distinct open apertures, and specialized tabular figure capabilities allow seamless transition between consumer price discovery and high-volume administrator data tables.
+
+All numerical prices and inventory metrics utilize monospace tabular figures (`tnum`) to eliminate layout jitter during quantity updates or real-time cart recalculations. Text colors adhere to strict tiering: `#FFFFFF` for primary titles, `#E0E0E0` for readable running body copy, and `#9E9E9E` strictly reserved for non-essential auxiliary labels and metadata.
+
+## Layout & Spacing
+The layout operates on an 8-point spatial model with 4-point micro-increments (`space-xs`).
+
+- **Grid Systems:**
+  - **Mobile (< 768px):** 4-column fluid layout with `margin: 1rem` (16px) and `gutter: 1rem` (16px). All primary touch zones stretch to full width or lock to a bottom sticky control bar.
+  - **Tablet (768px - 1024px):** 8-column layout with `margin: 1.5rem` and `gutter: 1.25rem`.
+  - **Desktop (> 1024px):** 12-column layout capped at 1440px maximum content width with `margin-desktop: 2.5rem` (40px) and `gutter-desktop: 1.5rem` (24px). Admin interfaces switch to a fixed 260px navigation drawer alongside a 12-column responsive workspace.
+
+- **Ergonomics & Fitts's Law:** Critical conversion controls (Checkout, Filter Toggle, Cart FAB) anchor to thumb-accessible zones on mobile screens (bottom 25% of viewport), adhering to the minimum 48px tactile target boundary.
+
+## Elevation & Depth
+In dark theme environments, optical drop shadows become muddy and ineffective. Elevation is achieved through progressive surface luminance combined with crisp 1px neutral borders:
+
+- **Level 0 (Canvas Base - `#121212`):** Primary viewport backdrop for catalog browsing and administrative workspaces.
+- **Level 1 (Card & Row Surface - `#1E1E1E`):** Default state for product cards, standard input backgrounds, and table rows. Outlined with a 1px solid border in `#2A2A2A`.
+- **Level 2 (Active Panels & Raised Drawers - `#252525`):** Hover states, category filter chips, search dropdown suggestions, and flyout administrative drawers.
+- **Level 3 (Modals, Overlays & Sticky Bars - `#2D2D2D`):** Floating cart summaries, age verification prompts, and high-priority action alerts. Finished with a subtle ambient glow: `0 8px 24px rgba(0, 0, 0, 0.6)`.
+
+Keyboard navigation renders an unambiguous 2px solid `#FFB74D` outline with an offset of 2px, providing 3:1 contrast against all surrounding elements (WCAG 2.2 Criterion 2.4.13).
+
+## Shapes
+The shape language uses balanced rounded geometry (`roundedness: 2`, base radius 8px / 0.5rem), providing modern approachability while preserving the structured rigidity required by inventory tables and dense catalog grids.
+
+- **Base Components (`0.5rem` / 8px):** Buttons, form inputs, counter steppers, catalog tiles, alert banners.
+- **Large Containers (`1rem` / 16px):** Modal dialogs, floating quick-cart sheets, administrative data summaries.
+- **Full Pill (`9999px`):** Intensity indicators (Alta, Media, Baja), discount percentages, and real-time inventory pill badges.
+
+## Components
+
+### 1. Atoms
+- **Target Size Rule (WCAG 2.2 Criterion 2.5.8):** All clickable controls and buttons enforce a strict minimum height and width of 48px x 48px, with interactive bounding boxes never overlapping adjacent targets.
+- **Alcohol Proof Badges (Badges de Intensidad):**
+  - *Alta (> 38% Alc. Vol.):* Red ruby border `#EF4444`, background `rgba(239, 68, 68, 0.12)`, text `#FF8A80`.
+  - *Media (15% - 37% Alc. Vol.):* Amber border `#FF9800`, background `rgba(255, 152, 0, 0.12)`, text `#FFD54F`.
+  - *Baja (< 15% Alc. Vol. / Cervezas):* Emerald green border `#00C853`, background `rgba(0, 200, 83, 0.12)`, text `#B9F6CA`.
+  - Geometry: Pill-shaped, padding `4px 10px`, typography `label-md`.
+- **Wine Glass Loading Atom (Loader de Copa de Vino):**
+  - Custom SVG wine glass outline (`#E0E0E0`) with dynamic vertical liquid fill animation rendered in `#E65100`. Liquid height correlates to asynchronous state progress (0% to 100%) or pulses continuously during network roundtrips.
+- **Real-Time Stock Pill:**
+  - Displays `"Disponibles: X piezas"` in `#00C853` with an active pulsing dot (6px) indicating live database sync.
+
+### 2. Molecules
+- **Predictive Search Bar (Buscador Predictivo):**
+  - Height 48px, background `#1E1E1E`, border 1px solid `#333333`. Prefix wine-bottle icon, suffix voice/clear icon.
+  - Dropdown surfaces real-time matches segmented by *Tipo de Licor* (Tequila, Mezcal, Ron) and *Temporada* (Fiestas Patrias, Fin de Año).
+- **Tactile Stepper (Selector de Cantidad):**
+  - Combined 48px widget: Minus button (48px target), tabular center quantity display (min 40px), Plus button (48px target). Prevents accidental mobile taps by enforcing 12px internal spacing.
+- **Price & Discount Block:**
+  - Promotional price displayed in `title-md` bold (`#FFFFFF`), original price in strikethrough `#9E9E9E`, paired with a high-contrast savings badge in `#E65100`.
+
+### 3. Organisms
+- **Interactive Action Button (Nielsen #1 Feedback Button):**
+  - *Default:* `#E65100` background, `#FFFFFF` bold text, minimum 48px height.
+  - *Hover:* `#FF6D00` with 0.98 scale transition.
+  - *Focus:* 2px solid `#FFB74D` outline.
+  - *Loading:* Label transitions to wine-glass filling atom with `"Procesando pedido..."`.
+  - *Confirmed State:* Snaps to emerald green `#00C853` surface displaying checkmark with copy `"Lugar Confirmado (Cancelar)"`, allowing a 5-second undo window.
+- **Product Card Organism:**
+  - Surface `#1E1E1E`, hover `#252525`. Contains image area, Proof Badge, Brand & Origin tag, Real-Time Stock indicator, Pricing Stack, and sticky 48px "Agregar al Carrito" button.
+- **Floating Cart (Carrito Flotante):**
+  - Mobile bottom-sheet / Desktop slide-over anchored at `#2D2D2D`. Instant calculation of subtotal, IVA, Nezahualcóyotl local delivery fee, and 48px primary "Proceder al Pago" CTA.
+- **Admin Management & Analytics Tables:**
+  - Header `#1E1E1E`, rows alternating `#181818` / `#1E1E1E`, border `#333333`. Monospaced tabular numbers for stock count, wholesale cost, retail profit margin, and quick inline action switches for employee roles and inventory adjustments.

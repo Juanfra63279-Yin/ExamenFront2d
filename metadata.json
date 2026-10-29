@@ -1,0 +1,6 @@
+{
+  "name": "VinoNez High-Performance Commerce & Ops",
+  "description": "High-contrast dark-mode retail and inventory logistics engine for premium spirits, wines, and express delivery operations.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
